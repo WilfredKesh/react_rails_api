@@ -1,7 +1,14 @@
 var Main = React.createClass({
 	render(){
 		return (
-			<Header/>
+			<div>
+			   <Header />
+			   <NewItem />
+			   <AllItems />
+
+
+
+			</div>
 			)
 	}
 });

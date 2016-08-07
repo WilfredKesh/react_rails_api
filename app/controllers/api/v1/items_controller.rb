@@ -5,7 +5,7 @@ class Api::V1::ItemsController < Api::V1::BaseController
   end
 
   def create
-  	respond_with :api, v1, Item.create(item_params)
+  	respond_with :api, :v1, Item.create(item_params)
   end
 
   def destroy
